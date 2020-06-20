@@ -1,2 +1,1 @@
-# wallsat.github.io
-Website
+# Wall Of Satoshi
