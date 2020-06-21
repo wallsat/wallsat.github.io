@@ -224,16 +224,20 @@
       <p><a href="https://github.com/lightninglabs/LSAT">LSAT</a> or Lightning Service Authentication Token is an open standard. 
       It is used to enable payments through <a href="https://lightning.network/">Bitcoin Lightning</a> on the web. Lightning is a layer 2 scaling solution for <a href="https://bitcoin.org/en/">Bitcoin</a>
       that enables micropayments. Everything is done by directly opening a payments channel between two parties, so there is no long
-      waiting for mion of transactions and little fees. Only in the case the other side is uncooperative you need to involve the Bitcoin network
+      waiting for transaction confirmation and little fees. Only in the case the other side is uncooperative you need to involve the Bitcoin network
       (similar to how business is usually conducted - only in case of trouble the legal system is involved).
       </p>
-      <p>To accept payments this way you would need to have a lightning node, open channels and take care about liquidity. Our solution
+      <p>To accept BTC payments this way you would need to have a lightning node, open channels and take care about liquidity. Our solution
       allows you to offload all that trouble to us. Our servers act as a reverse-proxy sitting in front your existing infrastructure.
-      Just two clicks and you can already accept payments. We accelerate access to your servers and your business.</p>
-      <p>Customers can pay truly anonymously, no need for them to sign-up or enter 12-digit secret numbers. Also if the price is just 1 cent or even satoshi
-      that is no problem. You specify the price per URL or API endpoint and we take care of the rest. We also won't take a 4% cut like other payment providers.
+      Similar to a CDN, just that we act as a payment provider as well.
+      We accelerate access to your servers and your business.</p>
+      <p>Customers can pay truly anonymously, no need for them to sign-up, disclose their name or enter antiquated 12-digit secret numbers (aka credit-card numbers). Web-native payments
+      are enabled by just scanning a QR code with your mobile phone or using <a href="https://lightningjoule.com/">Joule browser extension</a>. Even if the price is just 1 cent or even satoshi
+      that is no problem. You specify the price per URL or API endpoint and we take care of the rest.
       </p>
-      <p>WalLSAT can be used as a paywall solution to protect access to articles or other content or as a way to monetize your API.</p>
+      <p>WalLSAT can be used as a paywall to protect access to articles and other content or as a way to monetize your API.
+      A simple web-shop can be built this way too, but we offer consulting to integrate <a href="https://btcpayserver.org/">BTCPayServer</a> into your existing shop as a complete solution as well.
+      </p>
       <br>
     </div>
     <div class="col-sm-4">
@@ -248,8 +252,10 @@
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
     </div>
     <div class="col-sm-8">
-      <h2>Contact</h2><br>
+      <h2>Contact</h2>
       If you want to know more or just stay in touch:
+      <h3>hello [at] wallsat.net</h3><br/>
+      You might also want to subscribe to our mailing-list to get informed about product updates:
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
       <form action="https://pogacnik.us10.list-manage.com/subscribe/post?u=d0b0b5a6267509d8a7907cf85&amp;id=d1721f8067" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -266,15 +272,21 @@
         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
       </div>
     </form>
+    <br/>
+    We are accepting donations to help us build the thing:
+    <!-- Beginning of tippin.me Button -->
+    <div id="tippin-button" data-dest="fiksn" data-dark="true"></div>
+    <script src="https://tippin.me/buttons/tip.js?0001" type="text/javascript"></script>
+    <!-- End of tippin.me Button -->
   </div>
-
-<!--End mc_embed_signup-->
+ 
 
     </div>
   </div>
 </div>
 
 <footer class="container-fluid text-center">
+  Part of <a href="https://www.sbca.si"><img src="https://www.sbca.si/images/favicon.png" alt="SBCA" width="43" height="34"/> SBCA B2B innovation innitiative</a><br/>
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
